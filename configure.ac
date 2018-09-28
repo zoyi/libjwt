@@ -2,6 +2,7 @@ AC_PREREQ([2.61])
 AC_INIT([libjwt], [1.9.0], [https://github.com/benmcollins/libjwt/issues])
 AM_INIT_AUTOMAKE
 LT_PREREQ([2.2])
+m4_pattern_allow([^AM_])
 LT_INIT([])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_HEADERS([libjwt/config.h])
